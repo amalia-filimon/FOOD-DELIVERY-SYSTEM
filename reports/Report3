@@ -1,0 +1,8 @@
+The following clients have ordered more than 1 times so far.
+Username: a, ID: 1, Number of orders: 2
+Username: b, ID: 2, Number of orders: 2
+And the orders with a value higher than 5$ are:
+ID Client: 1, order price: 88$
+ID Client: 1, order price: 90$
+ID Client: 2, order price: 88$
+ID Client: 2, order price: 72$
