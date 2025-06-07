@@ -1,6 +1,6 @@
 # Food Delivery System (Java Swing)
 
-This project is a Java Swing-based desktop application designed to manage food orders for a catering company. The system supports three types of users—Client, Administrator, and Employee—and provides tailored interfaces and operations for each role. The application supports advanced menu filtering, order processing, PDF invoice generation, and administrator reporting features.
+This project is a Java Swing-based desktop application designed to manage food orders for a catering company. The system supports three types of users—Client, Administrator, and Employee—and provides tailored interfaces and operations for each role. The application supports advanced menu filtering, order processing, invoice generation, and administrator reporting features.
 
 ---
 
@@ -24,7 +24,7 @@ To design and implement a food ordering system for a catering company that:
 - Search products using filters:
   - Title, Rating, Calories, Protein, Fat, Sodium, Price
 - Place orders (mix of base & composite products)
-- Automatically receive a **PDF invoice** after placing an order
+- Automatically receive a **bill** after placing an order
 
 ### 🛠️ Administrator
 - Log in using credentials (username: `Admin10`, password: `aaa`)
@@ -46,7 +46,7 @@ To design and implement a food ordering system for a catering company that:
 ## 🧱 Technologies Used
 
 - Java 
-- Java Swing (`javax.swing`)
+- Java Swing
 - Object-Oriented Programming
 - Java Streams & Lambda Expressions
 - Serialization & File I/O
@@ -67,22 +67,16 @@ To design and implement a food ordering system for a catering company that:
 
 ## 🧾 Output
 
-### 📄 PDF Invoice
-When a client places an order, a **PDF invoice** is automatically generated and saved locally. It includes:
-- Client details
+### 📄 Bills
+When a client places an order, a **bill** is automatically generated and saved locally. It includes:
 - Ordered products (base and/or composite)
 - Total price
-- Order timestamp
 
 ### 📊 Administrator Reports
-Reports are saved as `.txt` files and include:
+The administrator can generate reports that include:
 - Orders within specific time intervals
 - Frequently ordered products
 - Loyal clients and their order values
 - Products ordered on a specific day
 
 ---
-
-## ✅ Example Scenario
-
-> A client logs into the system, browses the daily menu, and selects a few dishes. After submitting the order, a PDF invoice is generated. Simultaneously, the employee is notified of the new order, and the administrator can generate a report including this transaction.
